@@ -6,4 +6,4 @@ def contadorLetras(y):
     for letters in alphabet:
         print(f"Quantidade de \"{letters}\" na frase: {y.count(letters)} letra(s)")
 
-contadorLetras("ksajdlçakjdals")
+contadorLetras(input("Digite sua Frase: "))
